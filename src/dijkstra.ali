@@ -1,0 +1,165 @@
+V "GNAT Lib v2018"
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV PURE_BARRIERS
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPES
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV STATIC_PRIORITIES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=2
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U dijkstra%b		dijkstra.adb		c4a0052c NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+Z ada.containers.ordered_sets%s
+Z ada.containers.red_black_trees%s  a-crbltr.ads  a-crbltr.ali
+Z ada.containers.red_black_trees.generic_keys%s
+Z ada.containers.red_black_trees.generic_operations%s
+Z ada.containers.red_black_trees.generic_set_operations%s
+W ada.containers.synchronized_queue_interfaces%s
+W ada.containers.unbounded_priority_queues%s
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+
+U dijkstra%s		dijkstra.ads		b9f6fd03 BN EE NE OO PK GE
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-contai.ads		20180524051736 61e5e089 ada.containers%s
+D a-conhel.ads		20180524051736 20298884 ada.containers.helpers%s
+D a-conhel.adb		20180524051738 9cc5095b ada.containers.helpers%b
+D a-coorse.ads		20180524051738 6a149526 ada.containers.ordered_sets%s
+D a-coorse.adb		20180524051736 dfcf09a9 ada.containers.ordered_sets%b
+D a-crbltr.ads		20180524051738 c3e90a86 ada.containers.red_black_trees%s
+D a-crbtgk.ads		20180524051738 ab25d217 ada.containers.red_black_trees.generic_keys%s
+D a-crbtgk.adb		20180524051738 cffbc19e ada.containers.red_black_trees.generic_keys%b
+D a-crbtgo.ads		20180524051738 e494c304 ada.containers.red_black_trees.generic_operations%s
+D a-crbtgo.adb		20180524051738 a4b4aead ada.containers.red_black_trees.generic_operations%b
+D a-rbtgso.ads		20180524051736 2f314542 ada.containers.red_black_trees.generic_set_operations%s
+D a-rbtgso.adb		20180524051738 b6305a94 ada.containers.red_black_trees.generic_set_operations%b
+D a-csquin.ads		20180524051738 8c71856d ada.containers.synchronized_queue_interfaces%s
+D a-cuprqu.ads		20180524051736 a6699d87 ada.containers.unbounded_priority_queues%s
+D a-cuprqu.adb		20180524051738 3e5a17f9 ada.containers.unbounded_priority_queues%b
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20180524051736 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
+D dijkstra.ads		20190325153428 b9f6fd03 dijkstra%s
+D dijkstra.adb		20190326180812 2918da3b dijkstra%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 29|6r6 7r6 8r6 9r6 12r8
+X 2 a-contai.ads
+16K13*Containers 24e19 29|8r10 9r10 12r12
+20I9*Count_Type<integer>
+X 3 a-conhel.ads
+84R12 Reference_Control_Type<18|43R9>
+X 5 a-coorse.ads
+325R9 Node_Type
+326P9 Node_Access(325R9)
+X 6 a-coorse.adb
+58V13 Color{7|37E9} 10|45i19
+61V13 Left{5|326P9[15|94[29|29]]} 10|41i19[15|94[29|29]]
+64V13 Parent{5|326P9[15|94[29|29]]} 10|39i19[15|94[29|29]]
+67V13 Right{5|326P9} 10|43i19
+70U14 Set_Color 10|46i19
+73U14 Set_Left 10|42i19[15|94[29|29]]
+76U14 Set_Right 10|44i19
+79U14 Set_Parent 10|40i19[15|94[29|29]]
+X 14 a-csquin.ads
+35+9 Element_Type 29|27r7
+37k24*Synchronized_Queue_Interfaces 56e49 29|8w21 26r34
+X 15 a-cuprqu.ads
+39K17 Queue_Interfaces 29|30r7
+42+9 Queue_Priority 29|31r7
+52k24*Unbounded_Priority_Queues 137e45 29|9w21 29r43
+81V17 "="{boolean} 5|45i19
+86V17 "<"{boolean} 5|44i19
+100W19 Queue 29|34r33[29]
+105Y24 Enqueue 29|41s10[29] 55s28[29]
+105r33 New_Item{28|15R9} 29|41r18[29] 55r36[29]
+107Y24 Dequeue 29|47s13[29]
+107r33 Element{28|15R9} 29|47r22[29]
+121V27 Current_Use{2|20I9}<14|52p13> 29|46s16[29]
+X 19 a-inteio.ads
+18K13*Integer_Text_IO[25|46] 29|7w10
+X 21 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[5|70]>
+X 24 a-textio.ads
+49K13*Text_IO 471e16 29|6w10
+X 28 dijkstra.ads
+6A9 Two_Dimensional_Int_Array(natural)<integer><integer> 11r12
+9A9 Int_Array(natural)<integer> 22r63 29|37r63
+11*4 Graph{6A9} 29|39r40 52r28 54r24 56r57
+13k9*Dijkstra 6z9 9z9 11z4 23l5 23e13 29|11b14 63l5 63t13
+15R9*Node 18e17 20r37 29|15r37 27r23 38r18
+16i10 Priority{natural} 29|17r22 41m31 49r56 55m49 56r46
+17i10 Lair{natural} 29|41m46 48r37 49r35 50r34 54r42 56r75 56m86
+20V13*Get_Priority{natural} 15|44i18 28|20>27 29|15b13 18l8 18t20
+20r27 Element{15R9} 29|15b27 17r14
+21V13*Before{boolean} 15|47i18 28|21>21 21>27 29|20b13 23l8 23t14
+21i21 Left{natural} 29|20b21 22r14
+21i27 Right{natural} 29|20b27 22r21
+22U14*ShortestPath 22>28 22=45 29|37b14 62l8 62t20
+22i28 Start{natural} 29|37b28 41r54
+22*45 Distance{9A9} 29|37b45 49m14
+X 29 dijkstra.adb
+26K12 Panther_Queues[14|37] 30r27
+29K12 Panther_Priority_Queues[15|52] 34r9
+34w4 PQ{15|100W19[29]} 41r7 46r13 47r10 55r25
+38r4 CurrentNode{28|15R9} 47m33 48r25 49r23 49r44 50r22 54r30 56r34 56r63
+39a4 Visited(boolean) 42r16 43m10 48r17 50m14 53r24
+42i11 I{integer} 43r18
+52i18 I{integer} 53r32 54r48 56r81 56r94
+
